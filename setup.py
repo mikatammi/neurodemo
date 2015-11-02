@@ -13,8 +13,9 @@ config = {
         'version': '0.1',
         'requires': ['nose',
                      'sklearn',
-                     'sknn',
-                     'numpy'],
+                     'scikit_neuralnetwork',
+                     'numpy',
+                     'matplotlib'],
         'scripts': ['neurodemo.py']
 }
 
